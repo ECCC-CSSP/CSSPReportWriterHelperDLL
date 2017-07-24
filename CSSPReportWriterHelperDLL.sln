@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSPReportWriterHelperDLL", "CSSPReportWriterHelperDLL\CSSPReportWriterHelperDLL.csproj", "{DC8D9615-88C2-4B3B-999D-7ABF72C8F6A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSPReportWriterHelperDLL.Tests", "CSSPReportWriterHelperDLL.Tests\CSSPReportWriterHelperDLL.Tests.csproj", "{599AACE1-750A-4B97-BC33-8200D1DA7F9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC8D9615-88C2-4B3B-999D-7ABF72C8F6A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8D9615-88C2-4B3B-999D-7ABF72C8F6A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8D9615-88C2-4B3B-999D-7ABF72C8F6A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8D9615-88C2-4B3B-999D-7ABF72C8F6A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{599AACE1-750A-4B97-BC33-8200D1DA7F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{599AACE1-750A-4B97-BC33-8200D1DA7F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{599AACE1-750A-4B97-BC33-8200D1DA7F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{599AACE1-750A-4B97-BC33-8200D1DA7F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,720 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllowableConditionTermsAre_" xml:space="preserve">
+    <value>Allowable condition terms are {0}</value>
+  </data>
+  <data name="AllowableFilters_" xml:space="preserve">
+    <value>Allowable filters [{0}]</value>
+  </data>
+  <data name="AllowableLanguages_" xml:space="preserve">
+    <value>Allowable languages {0}</value>
+  </data>
+  <data name="AllowableValuesFor_In_" xml:space="preserve">
+    <value>Allowable values for {0} in {1}</value>
+  </data>
+  <data name="AllowableValues_" xml:space="preserve">
+    <value>Allowable values {0}</value>
+  </data>
+  <data name="AllTagsMustBeWithinAStartTag" xml:space="preserve">
+    <value>All tags must be within a Start tag</value>
+  </data>
+  <data name="ChildTVTypeIsRequiredIfParentTVItemIDIsNotZero" xml:space="preserve">
+    <value>ChildTVType is required if ParentTVItemID is not 0</value>
+  </data>
+  <data name="Command" xml:space="preserve">
+    <value>Command</value>
+  </data>
+  <data name="ConditionTextMissingNumberAfter_" xml:space="preserve">
+    <value>ConditionText missing number after {0}</value>
+  </data>
+  <data name="ConditionTextMissingSecondNumberAfter_" xml:space="preserve">
+    <value>ConditionText missing second number after {0}</value>
+  </data>
+  <data name="ConditionTextMissingTextAfter_" xml:space="preserve">
+    <value>ConditionText missing text after {0}</value>
+  </data>
+  <data name="ConditionTextShouldNotBeEmpty" xml:space="preserve">
+    <value>Condition text should not be empty</value>
+  </data>
+  <data name="ConditionTextShouldNotContain_" xml:space="preserve">
+    <value>ConditionText should not contain {0}</value>
+  </data>
+  <data name="Condition_MissingValue" xml:space="preserve">
+    <value>Condition {0} missing value</value>
+  </data>
+  <data name="Condition_NotWellFormed" xml:space="preserve">
+    <value>Condition [{0}] not well formed</value>
+  </data>
+  <data name="CouldNotFindEndTag_Of_" xml:space="preserve">
+    <value>Could not find end tag [{0}] of [{1}]</value>
+  </data>
+  <data name="CouldNotFindFirstLineReturnsAreRequired" xml:space="preserve">
+    <value>Could not find first line. Returns are required.</value>
+  </data>
+  <data name="CouldNotFindReturnInTag" xml:space="preserve">
+    <value>Could not find return in tag</value>
+  </data>
+  <data name="CouldNotFindTagToRemove_" xml:space="preserve">
+    <value>Could not find tag to remove {0}</value>
+  </data>
+  <data name="CouldNotFindTag_" xml:space="preserve">
+    <value>Could not find tag {0}</value>
+  </data>
+  <data name="CouldNotFind_StartingAt_" xml:space="preserve">
+    <value>Could not find [{0}] starting at {1}</value>
+  </data>
+  <data name="DescriptiveTag" xml:space="preserve">
+    <value>DescriptiveTag</value>
+  </data>
+  <data name="Example_" xml:space="preserve">
+    <value>Example {0}</value>
+  </data>
+  <data name="FirstItemShouldBeStart" xml:space="preserve">
+    <value>First item should be Start</value>
+  </data>
+  <data name="FirstTagInDocumentMustBeAStartTag" xml:space="preserve">
+    <value>First tag in document must be a start tag</value>
+  </data>
+  <data name="FrOrEn" xml:space="preserve">
+    <value>fr or en</value>
+  </data>
+  <data name="GetReportTypeReturnedNullFor_" xml:space="preserve">
+    <value>GetReportType returned null for {0}</value>
+  </data>
+  <data name="ItemName_NotAllowed" xml:space="preserve">
+    <value>Item name {0} not allowed</value>
+  </data>
+  <data name="Language_NotAllowed" xml:space="preserve">
+    <value>Language {0} not allowed</value>
+  </data>
+  <data name="Line_Item_ShouldBeANumber" xml:space="preserve">
+    <value>Line {0} item {1} should be a number</value>
+  </data>
+  <data name="Line_Item_ShouldBeOneOf_" xml:space="preserve">
+    <value>Line {0} item {1} should be one of {2}</value>
+  </data>
+  <data name="Line_ShouldHave_Items" xml:space="preserve">
+    <value>Line {0} should have {1} items</value>
+  </data>
+  <data name="Line_ShouldStartWith_" xml:space="preserve">
+    <value>Line {0} should start with {1}</value>
+  </data>
+  <data name="NoTagFoundInDocument" xml:space="preserve">
+    <value>No tag found in document</value>
+  </data>
+  <data name="No_TagFoundInDocument" xml:space="preserve">
+    <value>No {0} tag found in document</value>
+  </data>
+  <data name="PleaseSelectAppropriateStartingWebPage" xml:space="preserve">
+    <value>Please select appropriate starting web page</value>
+  </data>
+  <data name="RangeStartTag_Text" xml:space="preserve">
+    <value>RangeStartTag_Text</value>
+  </data>
+  <data name="ReportTreeNodeList" xml:space="preserve">
+    <value>ReportTreeNodeList</value>
+  </data>
+  <data name="ReportType" xml:space="preserve">
+    <value>ReportType</value>
+  </data>
+  <data name="StartOrLoop" xml:space="preserve">
+    <value>Start or Loop</value>
+  </data>
+  <data name="StartPos_ShouldBeSmallerThanEndPos_" xml:space="preserve">
+    <value>StartPos {0} should be smaller than EndPos {1}</value>
+  </data>
+  <data name="StartTagMustNotResideInATable" xml:space="preserve">
+    <value>Start tag must not reside in a table</value>
+  </data>
+  <data name="StartText" xml:space="preserve">
+    <value>StartText</value>
+  </data>
+  <data name="TableType" xml:space="preserve">
+    <value>TableType</value>
+  </data>
+  <data name="TagItem" xml:space="preserve">
+    <value>TagItem</value>
+  </data>
+  <data name="TagNameShouldBeStartOrLoop" xml:space="preserve">
+    <value>Tag name should be Start or Loop</value>
+  </data>
+  <data name="Tag_NotImplemented" xml:space="preserve">
+    <value>Tag [{0}] not implemented</value>
+  </data>
+  <data name="Tag_NotWellFormedItShouldHaveAStructureLike_" xml:space="preserve">
+    <value>Tag {0} not well formed. It should have a structure like {1}</value>
+  </data>
+  <data name="TextBetweenMarkersIsEmpty" xml:space="preserve">
+    <value>Text between markers is empty</value>
+  </data>
+  <data name="TooManyConditionsFor_" xml:space="preserve">
+    <value>Too many conditions for {0}</value>
+  </data>
+  <data name="Variable_DoesNotExistForItem_" xml:space="preserve">
+    <value>Variable {0} does not exist for item {1}</value>
+  </data>
+  <data name="Variable_NotUseWithinTag" xml:space="preserve">
+    <value>Variable {0} not used within tag</value>
+  </data>
+  <data name="Variable_WasNotIdentifiedAndIsUsedWithinTag" xml:space="preserve">
+    <value>Variable {0} was not identified and is used within tag</value>
+  </data>
+  <data name="YouHaveATag_WhichIsNotClosedProperly" xml:space="preserve">
+    <value>You have a tag {0} which is not closed properly</value>
+  </data>
+  <data name="_DoesNotContain_Items" xml:space="preserve">
+    <value>[{0}] does not contain {1} items</value>
+  </data>
+  <data name="_IsNotAnAllowableConditionTerms_" xml:space="preserve">
+    <value>{0} is not an allowable condition terms {1}</value>
+  </data>
+  <data name="_IsRequiredForLine_AndItem_" xml:space="preserve">
+    <value>{0} is required for line {1} and item {2}</value>
+  </data>
+  <data name="_IsRequiredIn_" xml:space="preserve">
+    <value>{0} is required in {1}</value>
+  </data>
+  <data name="_NotImplementedIn_" xml:space="preserve">
+    <value>{0} not implemented in {1}</value>
+  </data>
+  <data name="_OfTag_DoesNotExistAtLine_" xml:space="preserve">
+    <value>{0} of tag {1} does not exist at line {2}</value>
+  </data>
+  <data name="_ShouldEndWith_" xml:space="preserve">
+    <value>{0} should end with {1}</value>
+  </data>
+  <data name="_ShouldNotBeNullOrEmpty" xml:space="preserve">
+    <value>[{0}] should not be null or empty.</value>
+  </data>
+  <data name="_TagMustBeFollowedWithAReturn" xml:space="preserve">
+    <value>{0} tag must be followed with a return</value>
+  </data>
+  <data name="FirstLineOfCSVTemplateShouldNotContain_" xml:space="preserve">
+    <value>First line of CSV template should not contain {0}</value>
+  </data>
+  <data name="FirstLineVariableCount_DoesNotEqualToResultCount_" xml:space="preserve">
+    <value>First line variable count {0} does not equal result count {1}</value>
+  </data>
+  <data name="OneStartTagIsRequired" xml:space="preserve">
+    <value>One Start tag is required</value>
+  </data>
+  <data name="OnlyOneStartTagIsAllowedInCSVTemplate" xml:space="preserve">
+    <value>Only one Start tag is allowed in CSV template</value>
+  </data>
+  <data name="Tag_HasMoreThan1ChildTagWhichIsNotAllowedInCSVTemplates" xml:space="preserve">
+    <value>Tag {0} has more than 1 child tag which is not allowed in CSV templates</value>
+  </data>
+  <data name="PleaseSelectAField" xml:space="preserve">
+    <value>Please select a field</value>
+  </data>
+  <data name="AllowableDocumentTypes_" xml:space="preserve">
+    <value>Allowable document types {0}</value>
+  </data>
+  <data name="CSVTagTextIsEmpty" xml:space="preserve">
+    <value>CSVTagText is empty</value>
+  </data>
+  <data name="RangeStartTagTextIsEmpty" xml:space="preserve">
+    <value>RangeStartTag text is empty</value>
+  </data>
+  <data name="Line_Has_ParametersTheMaximumIs_" xml:space="preserve">
+    <value>Line {0} has {1} parameters. The maximum is {2}</value>
+  </data>
+  <data name="FileDoesNotExist_" xml:space="preserve">
+    <value>File does not exist [{0}]</value>
+  </data>
+  <data name="_TagDoesNotAllowSorting" xml:space="preserve">
+    <value>{0} tag does not allow sorting</value>
+  </data>
+  <data name="Enum_NotFoundShouldBeOneOf_" xml:space="preserve">
+    <value>Enum [{0}] not found. Should be one of [{1}]</value>
+  </data>
+  <data name="ReportFieldTypeIs_ItHasToBeOneOf_" xml:space="preserve">
+    <value>ReportFieldType is {0}. It has to be one of {1}</value>
+  </data>
+  <data name="_DoesNotExistFor_" xml:space="preserve">
+    <value>{0} does not exist for {1}</value>
+  </data>
+  <data name="Condition_NotWellFormed_Requires_" xml:space="preserve">
+    <value>Condition {0} not well formed. {1} requires {2}</value>
+  </data>
+  <data name="NumberWithoutDecimalIsRequiredAfter_" xml:space="preserve">
+    <value>Number without decimal is required after {0}</value>
+  </data>
+  <data name="_IsRequiredWhenUsing_For_Condition" xml:space="preserve">
+    <value>{0} is required when using {1} for {2} condition</value>
+  </data>
+  <data name="CouldNotClearAllRowsOfSubsectorSpecialTable_" xml:space="preserve">
+    <value>Could not clear all rows of Subsector Special Table {0}</value>
+  </data>
+  <data name="CouldNotConvertToFloat_" xml:space="preserve">
+    <value>Could not convert to float {0}</value>
+  </data>
+  <data name="DateStringNotWellFormed_ItShouldBeSomethingLike_" xml:space="preserve">
+    <value>Date string not well formed {0}. It should be something like {1}</value>
+  </data>
+  <data name="ParamValuesStringNotWellFormed_" xml:space="preserve">
+    <value>Param values string not well formed {0}</value>
+  </data>
+  <data name="_ShouldOnlyHave_Items" xml:space="preserve">
+    <value>{0} should only have {1} item(s)</value>
+  </data>
+  <data name="_TagShouldNotBeWithinATable" xml:space="preserve">
+    <value>{0} tag should not be within a table</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Rain_mm" xml:space="preserve">
+    <value>Rain (mm)</value>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="StartAndEndTides" xml:space="preserve">
+    <value>Start and end tides</value>
+  </data>
+  <data name="SubTypeAndLetterStringNotWellFormed_ItShouldBeSomethingLike_" xml:space="preserve">
+    <value>Sub type and letter string not well formed {0}. It should be something like {1}</value>
+  </data>
+  <data name="Day0" xml:space="preserve">
+    <value>Day 0</value>
+  </data>
+  <data name="MaximumNumberOfPrecipitationDaysIs_" xml:space="preserve">
+    <value>Maximum number of precipitation days is {0}</value>
+  </data>
+  <data name="Day1" xml:space="preserve">
+    <value>Day 1</value>
+  </data>
+  <data name="Day10" xml:space="preserve">
+    <value>Day 10</value>
+  </data>
+  <data name="Day2" xml:space="preserve">
+    <value>Day 2</value>
+  </data>
+  <data name="Day3" xml:space="preserve">
+    <value>Day 3</value>
+  </data>
+  <data name="Day4" xml:space="preserve">
+    <value>Day 4</value>
+  </data>
+  <data name="Day5" xml:space="preserve">
+    <value>Day 5</value>
+  </data>
+  <data name="Day6" xml:space="preserve">
+    <value>Day 6</value>
+  </data>
+  <data name="Day7" xml:space="preserve">
+    <value>Day 7</value>
+  </data>
+  <data name="Day8" xml:space="preserve">
+    <value>Day 8</value>
+  </data>
+  <data name="Day9" xml:space="preserve">
+    <value>Day 9</value>
+  </data>
+  <data name="FirstLineOfKMLTemplateShouldNotContain_" xml:space="preserve">
+    <value>First line of KML template should not contain {0}</value>
+  </data>
+  <data name="OnlyOneStartTagIsAllowedInKMLTemplate" xml:space="preserve">
+    <value>Only one Start tag is allowed in KML template</value>
+  </data>
+  <data name="Tag_HasMoreThan1ChildTagWhichIsNotAllowedInKMLTemplates" xml:space="preserve">
+    <value>Tag {0} has more than 1 child tag which is not allowed in KML templates</value>
+  </data>
+  <data name="KMLTagTextIsEmpty" xml:space="preserve">
+    <value>KMLTagText is empty</value>
+  </data>
+  <data name="MaximumNumberOfSigmaLayers_" xml:space="preserve">
+    <value>Maximum number of sigma layer [{0}].</value>
+  </data>
+  <data name="MIKEMesh" xml:space="preserve">
+    <value>MIKE mesh</value>
+  </data>
+  <data name="NotImplementedYet" xml:space="preserve">
+    <value>Not implemented yet.</value>
+  </data>
+  <data name="PFS_Error_" xml:space="preserve">
+    <value>PFS {0} Error {1}</value>
+  </data>
+  <data name="AllNodesAreSmallerThanContourValue" xml:space="preserve">
+    <value>All nodes are smaller than contour value</value>
+  </data>
+  <data name="BoundaryConditions" xml:space="preserve">
+    <value>Boundary conditions</value>
+  </data>
+  <data name="Celcius" xml:space="preserve">
+    <value>Celcius</value>
+  </data>
+  <data name="ContourValue" xml:space="preserve">
+    <value>Contour value</value>
+  </data>
+  <data name="Coordinates" xml:space="preserve">
+    <value>Coordinates</value>
+  </data>
+  <data name="CouldNotFindFile_" xml:space="preserve">
+    <value>Could not find file {0}</value>
+  </data>
+  <data name="CouldNotFind_With_Equal_" xml:space="preserve">
+    <value>Could not find {0} with {1} equal {2}</value>
+  </data>
+  <data name="CouldNotFind__" xml:space="preserve">
+    <value>Could not find {0} {1}</value>
+  </data>
+  <data name="DayLowerCase" xml:space="preserve">
+    <value>day</value>
+  </data>
+  <data name="Effluent" xml:space="preserve">
+    <value>Effluent</value>
+  </data>
+  <data name="ElementNodes" xml:space="preserve">
+    <value>Element nodes</value>
+  </data>
+  <data name="ElementType_IsNotSupported" xml:space="preserve">
+    <value>Element type {0} is not supported</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="FCMPNPer100ML" xml:space="preserve">
+    <value>FC </value>
+  </data>
+  <data name="FCMPNPer100MLEnd" xml:space="preserve">
+    <value>FC  at the end</value>
+  </data>
+  <data name="FCMPNPer100MLStart" xml:space="preserve">
+    <value>FC at the beginning</value>
+  </data>
+  <data name="FileType" xml:space="preserve">
+    <value>FileType</value>
+  </data>
+  <data name="Flow" xml:space="preserve">
+    <value>Flow</value>
+  </data>
+  <data name="FlowEnd" xml:space="preserve">
+    <value>Flow at the end</value>
+  </data>
+  <data name="FlowStart" xml:space="preserve">
+    <value>Flow  at the beginning</value>
+  </data>
+  <data name="IsContinuous" xml:space="preserve">
+    <value>Is continuous</value>
+  </data>
+  <data name="IsNotContinuous" xml:space="preserve">
+    <value>Is not continuous</value>
+  </data>
+  <data name="MIKE3NotImplementedYet" xml:space="preserve">
+    <value>MIKE 3 not implemented yet</value>
+  </data>
+  <data name="MIKEBoundaryConditionCode" xml:space="preserve">
+    <value>MIKE boundary condition code</value>
+  </data>
+  <data name="MIKEBoundaryConditionFormat" xml:space="preserve">
+    <value>MIKE boundary condition format</value>
+  </data>
+  <data name="MIKEBoundaryConditionLength" xml:space="preserve">
+    <value>MIKE boundary condition length</value>
+  </data>
+  <data name="MIKEBoundaryConditionLevelOrVelocity" xml:space="preserve">
+    <value>MIKE boundary condition level or velocity</value>
+  </data>
+  <data name="MIKEBoundaryConditionName" xml:space="preserve">
+    <value>MIKE boundary condition name</value>
+  </data>
+  <data name="MIKEBoundaryConditions" xml:space="preserve">
+    <value>MIKE boundary conditions</value>
+  </data>
+  <data name="MIKEPollutionAnimation" xml:space="preserve">
+    <value>MIKE pollution animation</value>
+  </data>
+  <data name="MIKEPollutionLimit" xml:space="preserve">
+    <value>MIKE pollution limit</value>
+  </data>
+  <data name="MikeScenario" xml:space="preserve">
+    <value>MikeScenario</value>
+  </data>
+  <data name="MikeScenarioTVItemID" xml:space="preserve">
+    <value>MikeScenarioTVItemID</value>
+  </data>
+  <data name="MikeSource" xml:space="preserve">
+    <value>MikeSource</value>
+  </data>
+  <data name="MIKESourceNameIsEmpty" xml:space="preserve">
+    <value>MIKE source name is empty</value>
+  </data>
+  <data name="MIKEStudyArea" xml:space="preserve">
+    <value>MIKE study area</value>
+  </data>
+  <data name="ModelInput" xml:space="preserve">
+    <value>Model input</value>
+  </data>
+  <data name="Nodes" xml:space="preserve">
+    <value>nodes</value>
+  </data>
+  <data name="NotUsedLowerCase" xml:space="preserve">
+    <value>not used</value>
+  </data>
+  <data name="NumberOfWebTideNodes" xml:space="preserve">
+    <value>Number of web tide nodes</value>
+  </data>
+  <data name="ParameterType" xml:space="preserve">
+    <value>parameter type</value>
+  </data>
+  <data name="PollutionAnimation" xml:space="preserve">
+    <value>Pollution animation</value>
+  </data>
+  <data name="PollutionContour" xml:space="preserve">
+    <value>Pollution contour</value>
+  </data>
+  <data name="PollutionLimits" xml:space="preserve">
+    <value>Pollution limits</value>
+  </data>
+  <data name="PSU" xml:space="preserve">
+    <value>PSU</value>
+  </data>
+  <data name="Salinity" xml:space="preserve">
+    <value>Salinity</value>
+  </data>
+  <data name="SalinityEnd" xml:space="preserve">
+    <value>Salinity at the end</value>
+  </data>
+  <data name="SalinityStart" xml:space="preserve">
+    <value>Salinity  at the beginning</value>
+  </data>
+  <data name="SourceIncluded" xml:space="preserve">
+    <value>Source included</value>
+  </data>
+  <data name="SourceNotIncluded" xml:space="preserve">
+    <value>Source Not Included</value>
+  </data>
+  <data name="SourceNumberString" xml:space="preserve">
+    <value>SourceNumberString</value>
+  </data>
+  <data name="Spill" xml:space="preserve">
+    <value>Spill</value>
+  </data>
+  <data name="SpillEndTime" xml:space="preserve">
+    <value>Spill Time at the end</value>
+  </data>
+  <data name="SpillStartTime" xml:space="preserve">
+    <value>Spill time  at the beginning</value>
+  </data>
+  <data name="Temperature" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="TemperatureEnd" xml:space="preserve">
+    <value>Temperature at the end</value>
+  </data>
+  <data name="TemperatureStart" xml:space="preserve">
+    <value>Temperature  at the beginning</value>
+  </data>
+  <data name="TVFile" xml:space="preserve">
+    <value>TVFile</value>
+  </data>
+  <data name="TVItem" xml:space="preserve">
+    <value>TVItem</value>
+  </data>
+  <data name="TVItemID" xml:space="preserve">
+    <value>TVItemID</value>
+  </data>
+  <data name="UsedLowerCase" xml:space="preserve">
+    <value>used</value>
+  </data>
+  <data name="WebTideDataSet" xml:space="preserve">
+    <value>Web tide data set</value>
+  </data>
+  <data name="WebTideNodes" xml:space="preserve">
+    <value>Web tide nodes</value>
+  </data>
+  <data name="Amplitude" xml:space="preserve">
+    <value>Amplitude</value>
+  </data>
+  <data name="AverageDecayFactor" xml:space="preserve">
+    <value>Average Decay Factor</value>
+  </data>
+  <data name="DecayIsConstant" xml:space="preserve">
+    <value>Decay is constant</value>
+  </data>
+  <data name="DecayIsVariable" xml:space="preserve">
+    <value>Decay is variable</value>
+  </data>
+  <data name="DegreeLowerCase" xml:space="preserve">
+    <value>degree</value>
+  </data>
+  <data name="FCMPNPollutionContour" xml:space="preserve">
+    <value>FC MPN Pollution Contour</value>
+  </data>
+  <data name="IncludedLowerCase" xml:space="preserve">
+    <value>included</value>
+  </data>
+  <data name="ManningNumber" xml:space="preserve">
+    <value>Manning number</value>
+  </data>
+  <data name="MikeSourceID" xml:space="preserve">
+    <value>MikeSourceID</value>
+  </data>
+  <data name="MikeSourceStartEnd" xml:space="preserve">
+    <value>MikeSourceStartEnd</value>
+  </data>
+  <data name="MinutesLowerCase" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="ModelParameters" xml:space="preserve">
+    <value>Model parameters</value>
+  </data>
+  <data name="NorthClockwiseLowerCase" xml:space="preserve">
+    <value>north clockwise</value>
+  </data>
+  <data name="NotIncludedLowerCase" xml:space="preserve">
+    <value>not included</value>
+  </data>
+  <data name="NoWind" xml:space="preserve">
+    <value>No Wind</value>
+  </data>
+  <data name="ResultFrequency" xml:space="preserve">
+    <value>Result Frequency</value>
+  </data>
+  <data name="ScenarioEndTime" xml:space="preserve">
+    <value>Scenario time at the end</value>
+  </data>
+  <data name="ScenarioStartTime" xml:space="preserve">
+    <value>Scenario time  at the beginning</value>
+  </data>
+  <data name="Wind" xml:space="preserve">
+    <value>Wind</value>
+  </data>
+  <data name="WindDirection" xml:space="preserve">
+    <value>Wind Direction</value>
+  </data>
+  <data name="TopOfLayer" xml:space="preserve">
+    <value>Top of layer</value>
+  </data>
+  <data name="BottomOfLayer" xml:space="preserve">
+    <value>Bottom of layer</value>
+  </data>
+  <data name="Depths" xml:space="preserve">
+    <value>Depths</value>
+  </data>
+  <data name="Polygons" xml:space="preserve">
+    <value>Polygons</value>
+  </data>
+</root>

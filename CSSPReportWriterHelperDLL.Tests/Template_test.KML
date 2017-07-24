@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+< kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Template_Mesh</name>
+	<description>
+|||Start Mike_Scenario en
+|||
+|||LoopStart Mike_Scenario_Special_Result_KML en
+Mike_Scenario_Special_Result_KML_Type EQUAL PollutionAnimation
+Mike_Scenario_Special_Result_KML_Limit_Values EQUAL 14,88
+|||
+|||LoopEnd Mike_Scenario_Special_Result_KML en|||
+|||End Mike_Scenario en|||
+	</description>
+</Folder>
+</kml>
