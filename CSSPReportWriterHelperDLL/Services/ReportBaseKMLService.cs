@@ -549,15 +549,25 @@ namespace CSSPReportWriterHelperDLL.Services
             {
                 //reportTag.Error = ReportServiceRes.MIKE3NotImplementedYet;
 
-                float Depth = 0.0f;
+                float MinDepth = -0.1f;
+                float MaxDepth = 0.1f;
                 List<Element> TempElementList;
+
+                var aaa = (from el in ElementList
+                           let z1 = dfsuFile.Z[el.NodeList[3].ID - 1]
+                           let z2 = dfsuFile.Z[el.NodeList[4].ID - 1]
+                           let z3 = dfsuFile.Z[el.NodeList[5].ID - 1]
+                           select new { z1, z2, z3 }).ToList();
 
                 // doing type 32
                 TempElementList = (from el in ElementList
                                    where el.Type == 32
-                                   && (dfsuFile.Z[el.NodeList[3].ID - 1] == Depth
-                                   && dfsuFile.Z[el.NodeList[4].ID - 1] == Depth
-                                   && dfsuFile.Z[el.NodeList[5].ID - 1] == Depth)
+                                   && ((dfsuFile.Z[el.NodeList[3].ID - 1] > MinDepth 
+                                   && dfsuFile.Z[el.NodeList[3].ID - 1] < MaxDepth)
+                                   && (dfsuFile.Z[el.NodeList[4].ID - 1] > MinDepth
+                                   && dfsuFile.Z[el.NodeList[4].ID - 1] < MaxDepth)
+                                   && (dfsuFile.Z[el.NodeList[5].ID - 1] > MinDepth
+                                   && dfsuFile.Z[el.NodeList[5].ID - 1] < MaxDepth))
                                    select el).ToList<Element>();
 
                 foreach (Element el in TempElementList)
@@ -625,10 +635,14 @@ namespace CSSPReportWriterHelperDLL.Services
                 // doing type 33
                 TempElementList = (from el in ElementList
                                    where el.Type == 33
-                                   && (dfsuFile.Z[el.NodeList[4].ID - 1] == Depth
-                                   && dfsuFile.Z[el.NodeList[5].ID - 1] == Depth
-                                   && dfsuFile.Z[el.NodeList[6].ID - 1] == Depth
-                                   && dfsuFile.Z[el.NodeList[7].ID - 1] == Depth)
+                                   && ((dfsuFile.Z[el.NodeList[4].ID - 1] > MinDepth
+                                   && dfsuFile.Z[el.NodeList[4].ID - 1] < MaxDepth)
+                                   && (dfsuFile.Z[el.NodeList[5].ID - 1] > MinDepth
+                                   && dfsuFile.Z[el.NodeList[5].ID - 1] < MaxDepth)
+                                   && (dfsuFile.Z[el.NodeList[6].ID - 1] > MinDepth
+                                   && dfsuFile.Z[el.NodeList[6].ID - 1] < MaxDepth)
+                                   && (dfsuFile.Z[el.NodeList[7].ID - 1] > MinDepth
+                                   && dfsuFile.Z[el.NodeList[7].ID - 1] < MaxDepth))
                                    select el).ToList<Element>();
 
                 foreach (Element el in TempElementList)
