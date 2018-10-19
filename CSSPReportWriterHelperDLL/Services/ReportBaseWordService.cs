@@ -17,8 +17,8 @@ using System.Collections.Specialized;
 using System.Reflection;
 using System.IO;
 using System.Dynamic;
-using CSSPWebToolsDBDLL.Services;
-using CSSPWebToolsDBDLL.Services.Resources;
+using CSSPDBDLL.Services;
+using CSSPDBDLL.Services.Resources;
 
 namespace CSSPReportWriterHelperDLL.Services
 {

@@ -36,6 +36,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CSSPDBDLL">
+      <HintPath>..\..\CSSPDBDLL\CSSPDBDLL\bin\Debug\CSSPDBDLL.dll</HintPath>
+    </Reference>
     <Reference Include="CSSPEnumsDLL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\CSSPEnumsDLL\CSSPEnumsDLL\bin\Debug\CSSPEnumsDLL.dll</HintPath>
@@ -46,10 +49,6 @@
     <Reference Include="CSSPReportWriterHelperDLL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\CSSPReportWriterHelperDLL\bin\Debug\CSSPReportWriterHelperDLL.dll</HintPath>
-    </Reference>
-    <Reference Include="CSSPWebToolsDBDLL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\CSSPWebToolsDBDLL\CSSPWebToolsDBDLL\bin\Debug\CSSPWebToolsDBDLL.dll</HintPath>
     </Reference>
     <Reference Include="DHI.DHIfl, Version=15.0.0.0, Culture=neutral, PublicKeyToken=c513450b5d0bf0bf, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

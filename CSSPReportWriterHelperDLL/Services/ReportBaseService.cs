@@ -17,7 +17,7 @@ using System.Collections.Specialized;
 using System.Reflection;
 using System.IO;
 using System.Dynamic;
-using CSSPWebToolsDBDLL.Services;
+using CSSPDBDLL.Services;
 using CSSPEnumsDLL.Services;
 using System.Security.Principal;
 
@@ -2699,7 +2699,7 @@ namespace CSSPReportWriterHelperDLL.Services
         }
         public string GetReportTreeNodesFromTagText(string TagText, string TagItem, Type TagType, List<ReportTreeNode> ReportTreeNodeList, bool IsDBFiltering)
         {
-            // Also used by CSSPWebToolsDBDLL
+            // Also used by CSSPDBDLL
 
             // Most of the tag structure should have been verified in FillReportTag
 
